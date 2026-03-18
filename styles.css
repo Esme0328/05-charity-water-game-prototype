@@ -1,15 +1,55 @@
-/* Charity: water Brand Colors
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f9ff;
+  text-align: center;
+  margin: 0;
+  padding: 20px;
+}
 
-Primary Colors:
-- Yellow:     #FFC907
-- Blue:       #2E9DF7
+.container {
+  max-width: 600px;
+  margin: auto;
+}
 
-Secondary Colors:
-- Light Blue: #8BD1CB
-- Green:      #4FCB53
-- Orange:     #FF902A
-- Red:        #F5402C
-- Dark Green: #159A48
-- Pink:       #F16061
+h1 {
+  margin-bottom: 10px;
+}
 
-*/
+.instructions {
+  margin-bottom: 20px;
+}
+
+.info {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #ffc907;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-bottom: 15px;
+}
+
+button:hover {
+  background-color: #e6b800;
+}
+
+#message {
+  margin-bottom: 15px;
+  font-weight: bold;
+}
+
+#game-area {
+  width: 100%;
+  height: 300px;
+  border: 2px solid #ccc;
+  border-radius: 12px;
+  background-color: white;
+  position: relative;
+}
