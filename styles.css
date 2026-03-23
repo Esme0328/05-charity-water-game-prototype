@@ -38,8 +38,8 @@ body {
 }
 
 .brand-logo {
-  width: 220px;
-  max-width: 85%;
+  width: clamp(120px, 24vw, 165px);
+  max-width: 60%;
   margin-bottom: 8px;
 }
 
@@ -127,7 +127,7 @@ button:disabled {
 .arena-can {
   position: absolute;
   bottom: 6px;
-  width: 88px;
+  width: 56px;
   opacity: 0.23;
   pointer-events: none;
 }
@@ -183,5 +183,14 @@ button:disabled {
 
   .water-drop {
     width: 62px;
+  }
+
+  .brand-logo {
+    width: 120px;
+    max-width: 52%;
+  }
+
+  .arena-can {
+    width: 46px;
   }
 }
